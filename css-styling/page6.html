@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes and Pseudo-elements</title>
+    <style>
+        a:hover {
+            color: rgb(224, 21, 133);
+        }
+        a:visited {
+            color: rgb(185, 16, 129);
+        }
+        .pseudo-element::before {
+            content: "Before ";
+            color: rgb(26, 192, 54);
+        }
+        .pseudo-element::after {
+            content: " After";
+            color: rgb(247, 114, 6);
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-classes and Pseudo-elements</h1>
+    <a href="https://example.com" target="_blank">Visit Example</a>
+    <p class="pseudo-element">This paragraph demonstrates pseudo-elements.</p>
+</body>
+</html>

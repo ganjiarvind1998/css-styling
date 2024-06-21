@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selectors</title>
+    <style>
+        a[href] {
+            color: red;
+        }
+        a[href^="https"] {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Attribute Selectors</h1>
+    <a href="https://example.com">This link starts with "https".</a>
+    <a href="http://example.com">This link does not start with "https".</a>
+</body>
+</html>
